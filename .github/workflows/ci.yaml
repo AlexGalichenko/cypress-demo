@@ -3,7 +3,8 @@
 # good list of examples at http://www.thedreaming.org/2019/09/10/github-ci/
 name: Cypress parallel tests
 
-on: push
+on:
+  workflow_dispatch:
 
 jobs:
   install:
